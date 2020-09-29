@@ -1,0 +1,52 @@
+.app-navbar-wrapper {
+  background-color: #fff;
+  padding: 30px 40px;
+  display: flex;
+  // align-items: center;
+  justify-content: space-between;
+
+  // Left side
+  .app-natigator-wrapper {
+    a {
+      margin-right: 15px;
+      color: #000;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: .9rem
+    }
+  }
+
+  // Right Side
+  .navbar-right-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      width: 20px;
+      height: 20px;
+      margin-left: 20px;
+      cursor: pointer;
+    }
+
+    .icon-wrapper {
+      position: relative;
+
+      // count
+      .count {
+        position: absolute;
+        top: -15px;
+        right: -8px;
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        border-radius: 50%;
+        background-color: #ef6969;
+        color: #fff;
+        text-align: center;
+        font-size: 10px;
+        font-weight: bold;
+      }
+    }
+  }
+}
