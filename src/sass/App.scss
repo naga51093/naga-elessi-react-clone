@@ -6,7 +6,8 @@
 
 // Components
 @import './components/Appnavbar.scss';
-
+@import "./components/HomeCarousel.scss";
+@import "./components/CarouselItem.scss";
 
 // Reset some elements
 * {
@@ -22,6 +23,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  height: 5000px;
 }
 
 a {
@@ -30,6 +32,10 @@ a {
   &:hover {
     text-decoration: none;
   }
+}
+
+ul {
+  margin: 0;
 }
 
 // React router dom 

@@ -1,0 +1,7 @@
+.home-page-carousel-wrapper {
+  overflow: hidden;
+
+  .swiper-container {
+    height: calc(100vh - 80px);
+  }
+}

@@ -1,5 +1,8 @@
 import React from "react";
+// Utils
 import { Route, Switch } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+// components
 import AppNavbar from "./components/AppNavbar";
 
 // Utils
