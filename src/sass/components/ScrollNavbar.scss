@@ -1,0 +1,59 @@
+#scroll-navbar-wrapper {
+  box-shadow: 0 0 1px 1px #9e9e9e3d;
+  position: fixed;
+  top: -100%;
+  width: 100%;
+  transition: top 0.4s ease-in-out;
+  background-color: #fff;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  transition: top 1s ease-in-out;
+
+  // Left side
+  .app-natigator-wrapper {
+    a {
+      margin-right: 15px;
+      color: #000;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: .8rem
+    }
+  }
+
+  // Right Side
+  .navbar-right-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      width: 20px;
+      height: 20px;
+      margin-left: 20px;
+      cursor: pointer;
+    }
+
+    .icon-wrapper {
+      position: relative;
+
+      // count
+      .count {
+        position: absolute;
+        top: -15px;
+        right: -8px;
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        border-radius: 50%;
+        background-color: #ef6969;
+        color: #fff;
+        text-align: center;
+        font-size: 10px;
+        font-weight: bold;
+      }
+    }
+  }
+}
